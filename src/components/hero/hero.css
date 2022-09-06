@@ -1,16 +1,45 @@
 .HeroBackground {
-  background-image: url("../../images/hero/background_synth.jpg");
+  background-image: url("../../images/hero/background_synth_2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  min-height: 900px;
+  min-height: 600px;
 }
-.HeroText{
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
+.HeroText {
+  text-align: center;
+  position: absolute;
+  top: 23%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.WaveText {
+  font-size: 70px;
+}
+.WaveText {
+  color: rgb(92, 16, 122);
+  margin-bottom: 0;
+  width: 100%;
+  display: block;
+  margin-top: 0px;
+  font-size: 48px;
+  line-height: 110%;
+  text-shadow: 5px 0px 2px rgba(255, 255, 255, 0.5),
+    -4px 0px 5px rgba(0, 255, 191, 0.5), 5px 0px 10px rgba(49, 122, 255, 1);
+}
+@media screen and (max-width: 600px) {
+  .WaveText {
+    font-size: 20px;
+  }
+  .HeroBackground {
+    background-image: url("../../images/hero/background_synth_2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    min-height: 400px;
+    min-height: 400px;
+  }
 }
