@@ -28,7 +28,7 @@ function AboutSection() {
           <div className="col-5">
             <div className="ContactMeSynthBox glow">
               <p className="SynthTitle MediumText">Contáctame</p>
-              <p className="WhiteText"> <a href="mailto:chrisgrarod96@gmail.com"> <strong>Email: Christian Granad</strong> </a> </p>
+              <p className="WhiteText"> <a href="mailto:chrisgrarod96@gmail.com"> <strong>Email: Christian Granado</strong> </a> </p>
               <p className="WhiteText"> <a href="https://es.linkedin.com/in/christiangranadorodriguez"> <strong>LinkedIn</strong> </a> </p>
               <p className="WhiteText"> <a href="https://github.com/Xxamer"> <strong>Github</strong> </a> </p>
               <p className="WhiteText"> <a href="tel:+34667831974"><strong>Teléfono: (+34) 667-83-19-74</strong></a></p>

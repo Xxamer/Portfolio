@@ -105,8 +105,8 @@
 
 @keyframes blink {
   100% {
-    box-shadow: 0 0 3px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #964eb3,
-      0 0 70px #964eb3, 0 0 50px #964eb3;
+    box-shadow: 0 0 3px #fff, 0 0 10px #fff, 0 0 30px #fff, 0 0 40px #964eb3,
+      0 0 70px #964eb3, 0 0 70px #964eb3;
   }
 }
 

@@ -6,3 +6,13 @@
     position: relative;
     min-height: 400px;
 }
+
+.ProjectCard{
+    background-color:  #1a0d1e;
+    border-radius: 10px;
+}
+
+.mr-4{
+    margin-right: 3px;
+    margin-bottom: 10px;
+}
