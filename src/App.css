@@ -1,7 +1,10 @@
 .WhiteText{
     color: white;
     text-align: justify;
-    font-size: 12px;
+}
+
+.CenterText{
+  text-align: center;
 }
 
 .row::after {

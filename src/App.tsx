@@ -1,14 +1,16 @@
 import './App.css';
-import AboutSection from './components/about/about';
+import ContactSection from './components/contact/contact';
 import HeroSection from './components/hero/hero';
+import KnowSection from './components/knowme/know';
 import ProjectSection from './components/projects/project';
 
 function App() {
   return (
     <div>
       <HeroSection></HeroSection>
-      <AboutSection></AboutSection>
-      <ProjectSection></ProjectSection>
+      <KnowSection></KnowSection>
+      <ContactSection></ContactSection>
+      {/* <ProjectSection></ProjectSection> */}
     </div>
   );
 }

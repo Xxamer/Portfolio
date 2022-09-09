@@ -1,0 +1,35 @@
+.SynthInput{
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    min-height: 30px;
+}
+.SynthTextArea {
+    border-radius: 5px;
+    margin-bottom: 10px;
+    min-height: 30px;
+    width: 100%;
+    resize: none;
+}
+
+.sendButton{
+    font-size: 20px;
+    width: 40%;
+    color: white;
+    border-radius: 20px;
+    border-color: rgba(11, 53, 168, 0.5);
+    background-color: rgba(11, 53, 168, 0.5);
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.sendButton ::hover {
+    background-color: rgba(56, 230, 33, 0.5);
+}
+
+.centerButton {
+    margin-bottom: 20px;
+    text-align: center;
+}

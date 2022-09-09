@@ -11,7 +11,7 @@ const ProjectSection = () => {
       .catch((err) => console.log(err));
   };
 
-  useEffect(() => {
+  useEffect( () => {
     fetchGithub();
   }, []);
 
