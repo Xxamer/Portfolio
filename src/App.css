@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
 .WhiteText{
     color: white;
     text-align: justify;
@@ -5,6 +6,10 @@
 
 .CenterText{
   text-align: center;
+}
+
+*{
+  font-family: "Roboto Slab";
 }
 
 .row::after {
