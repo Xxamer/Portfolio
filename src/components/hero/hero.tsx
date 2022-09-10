@@ -6,9 +6,9 @@ function HeroSection() {
     <section className="HeroBackground">
       <div className="HeroText">
         <p className="WaveText">
-          Christian Granado <br />
-          FullStack Developer
+          Christian Granado    
         </p>
+        <p className="RetroWaveText">FullStack Developer</p>
       </div>
     </section>
   );

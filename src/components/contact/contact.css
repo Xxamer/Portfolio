@@ -3,7 +3,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 800px;
+  min-height: 90vh;
 }
 
 .Container {
@@ -46,8 +46,7 @@
   padding-top: 10px;
   border: 1px solid #964eb3;
   text-align: left;
-  position: absolute;
-  max-width: 70%;
+  max-width: 100%;
 }
 .ContactMeSynthBox {
   text-align: center;
@@ -105,10 +104,14 @@
 
 @media screen and (max-width: 900px) {
   .Blackground {
-    height: 70vh;
+    min-height: 120vh;
   }
   .ContactMeSynthBox {
     margin-top: 30px;
     margin-left: 0;
+  }
+  .ContactSynth {
+    padding-left: 25px;
+    padding-right: 25px;
   }
 }

@@ -1,9 +1,14 @@
 .SynthInput{
+    margin-top: 10px;
     border-radius: 5px;
     padding: 5px;
     margin-bottom: 10px;
     width: 100%;
     min-height: 30px;
+    color: white;
+    border-color: rgba(11, 53, 168, 0.5);
+    background-color: rgba(11, 53, 168, 0.5);
+    font-size: 18px;
 }
 .SynthTextArea {
     border-radius: 5px;
@@ -32,4 +37,17 @@
 .centerButton {
     margin-bottom: 20px;
     text-align: center;
+}
+
+.SynthTextArea {
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    min-height: 30px;
+    color: white;
+    font-size: 18px;
+    border-color: rgba(11, 53, 168, 0.5);
+    background-color: rgba(11, 53, 168, 0.5);
 }

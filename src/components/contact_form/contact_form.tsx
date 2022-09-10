@@ -47,7 +47,7 @@ const ContactForm = () => {
                         placeholder="Subject"
                         name="Subject"
                         required
-                    > </textarea>
+                    ></textarea>
                 </div>
               <div className="centerButton">
                 <button className="sendButton" type="submit">
