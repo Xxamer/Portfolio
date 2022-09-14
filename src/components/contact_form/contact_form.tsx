@@ -7,7 +7,6 @@ const ContactForm = () => {
     const [submitted, setSubmitted] = useState(false);
     const sendEmail = () => {
         setTimeout(() => {
-            alert("SUBMITTEADO");
             setSubmitted(true);
         }, 100);
     };
