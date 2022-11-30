@@ -40,7 +40,7 @@ const KnowSection = () => {
                   <img width="120" height="120" alt={card.name} src={card.image} />
                   <h1 className="SynthTitle BigText">{card.name}</h1>
                   <p className="WhiteText DescriptionCard">{card.description}</p>
-                  {card.name === "Life" ?  <div className="KnowLink"> <a target="_blank" href="https://drive.google.com/file/d/1I18HpK_rPjYfs2ptN7tu-XsxtWLql8s1/view?usp=sharing">You can download my Curriculum clicking <span className="SynthFont">here</span>  to get more professional info </a> </div> : null}
+                  {card.name === "Life" ?  <div className="KnowLink"> <a target="_blank" href="https://drive.google.com/file/d/1WA2iNyb2XBvXwdvh2xlk7xoCBkoRIDKF/view?usp=sharing">You can download my Curriculum clicking <span className="SynthFont">here</span>  to get more professional info </a> </div> : null}
                   <ul className="list">
                   {card.list ?  card.list.map((skill, key)=>{
                     return (<li key={key}>{skill}</li>)

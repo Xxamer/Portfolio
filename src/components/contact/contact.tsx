@@ -7,7 +7,7 @@ function ContactSection() {
         <p className="SynthTitle BigText">Contact</p>
         <div className="row">
           <div className="col-12">
-            <div className=" col-12 ContactSynth glow">
+            <div className="col-12 ContactSynth glow">
               <div className="col-6">
                 <ContactForm></ContactForm>
               </div>
