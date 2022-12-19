@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+.html{
+  scroll-behavior: smooth;
+}
 .WhiteText{
     color: white;
     text-align: justify;

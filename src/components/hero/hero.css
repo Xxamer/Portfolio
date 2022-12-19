@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Courgette&display=swap");
 .HeroBackground {
-  background-image: url("../../images/hero/background_synth_4.jpg");
+  background-image: url("../../images/hero/synth.gif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,12 +19,13 @@
 }
 
 .WaveText {
+
   font-family: "Knewave";
   background: linear-gradient(
     to bottom,
-    #9228EE 10%,
-    #8E17F5 40%,
-    #E40AFA 60%,
+    #FBB819 10%,
+    rgba(255, 140, 0, 0.7) 45%,
+    #E40AFA 65%,
     #5F156E 90%
   );
   -webkit-background-clip: text;
@@ -37,7 +38,7 @@
 
 .RetroWaveText {
   text-shadow: 1px -1px 0 rgba(255, 255, 255, 0.5),
-    2px 1px 2px rgba(255, 0, 255, 0.85), -3px -2px 3px rgba(0, 0, 255, 0.85),
+    2px 1px 2px rgba(248, 172, 248, 0.85), -3px -2px 3px rgba(0, 0, 255, 0.85),
     1px -2px 0 rgba(255, 255, 255, 0.8);
   color: rgb(255, 0, 234);
   font-size: 50px;
@@ -67,7 +68,7 @@
     margin-top: -10px;
   }
   .HeroBackground {
-    background-image: url("../../images/hero/background_synth_4.jpg");
+    background-image: url("../../images/hero/synth.gif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

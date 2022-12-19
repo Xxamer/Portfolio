@@ -114,4 +114,10 @@
     padding-left: 25px;
     padding-right: 25px;
   }
+  .Container{
+    max-width: 80%;
+    align-items: center;
+    padding-left: 5%;
+  padding-right: 0%;
+  }
 }

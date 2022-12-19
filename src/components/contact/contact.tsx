@@ -17,7 +17,7 @@ function ContactSection() {
                   <h1 className="WhiteText CenterText"> <a href="mailto:chrisgrarod96@gmail.com"> <strong>Email: Christian Granado</strong> </a> </h1>
                   <h1 className="WhiteText CenterText"> <a href="https://es.linkedin.com/in/christiangranadorodriguez"> <strong>LinkedIn</strong> </a> </h1>
                   <h1 className="WhiteText CenterText"> <a href="https://github.com/Xxamer"> <strong>Github</strong> </a> </h1>
-                  <h2 className="WhiteText CenterText"> <a href="tel:+34667831974"><strong>Phone: (+34) 667-83-19-74 / 828-01-73-22</strong></a></h2>
+                  {/* <h2 className="WhiteText CenterText"> <a href="tel:+34667831974"><strong>Phone: (+34) 667-83-19-74 / 828-01-73-22</strong></a></h2> */}
                 </div>
               </div>
             </div>
