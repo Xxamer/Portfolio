@@ -75,23 +75,19 @@
     -4px 0px 5px rgba(0, 255, 191, 0.5), 5px 0px 10px rgba(49, 122, 255, 1);
 }
 
-
 .glow {
   border-radius: 10px;
   color: #fff;
-  box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px #FE0099, 0 0 30px #FE0099,
-    0 0 40px #FE0099, 0 0 50px #FE0099;
-  -webkit-animation: blink 1.0s infinite alternate;
-  animation: blink 1.0s infinite alternate;
+  box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px #fe0099, 0 0 30px #fe0099,
+    0 0 40px #fe0099, 0 0 50px #fe0099;
+  -webkit-animation: blink 1s infinite alternate;
+  animation: blink 1s infinite alternate;
 }
 
 @-webkit-keyframes blink {
   100% {
-    box-shadow: 0 0 3px #fff,
-    0 0 10px #fff,
-    0 0 20px #fff,
-    0 0 40px #964eb3,
-    0 0 70px #964eb3, 0 0 80px #964eb3;
+    box-shadow: 0 0 3px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #964eb3,
+      0 0 70px #964eb3, 0 0 80px #964eb3;
   }
 }
 
@@ -114,10 +110,10 @@
     padding-left: 25px;
     padding-right: 25px;
   }
-  .Container{
+  .Container {
     max-width: 80%;
     align-items: center;
     padding-left: 5%;
-  padding-right: 0%;
+    padding-right: 0%;
   }
 }
